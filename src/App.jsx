@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "./context/ThemeContext";
+import TextTrail from "./Animations/TextAnimations/TextTrail";
 
 function App() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
@@ -12,6 +13,10 @@ function App() {
       >
         {darkMode ? <i class="ri-sun-fill"></i>  : <i class="ri-moon-fill"></i>}
       </button>
+
+      <div className="h-[60vh] w-full">
+        <TextTrail text={"Text"} />
+      </div>
     </div>
   );
 }
