@@ -112,8 +112,8 @@ const Sidebar = () => {
                 ref={(el) => (listRefs.current[item] = el)}
                 onClick={() => {
                   setActive(item);
-                  if (isHamburger && !isSmallScreen) setMenuOpen(false); // auto close only on <966px
-                  if (isSmallScreen && menuOpen) setMenuOpen(false); // close on full screen
+                  if (isHamburger && !isSmallScreen) setMenuOpen(false); 
+                  if (isSmallScreen && menuOpen) setMenuOpen(false);
                 }}
                 className={`relative cursor-pointer px-4 py-2 transition-transform duration-200 transform-origin-left
                   ${
