@@ -16,8 +16,7 @@ function App() {
       </button>
 
       <div className="w-[80vw] h-fit bg-amber-900">
-      <Canvas component={<TextTrail text={"Text"} />} />
-
+      <Canvas component={<TextTrail text={"Hello"} />} />
       </div>
     </div>
   );
