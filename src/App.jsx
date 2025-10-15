@@ -15,8 +15,8 @@ function App() {
         {darkMode ? <i class="ri-sun-fill"></i>  : <i class="ri-moon-fill"></i>}
       </button>
 
-      <div className="w-[80vw] h-fit bg-amber-900">
-      <Canvas component={<TextTrail text={"Hello"} />} />
+      <div className="w-[80vw] h-fit">
+      <Canvas component={<TextTrail text={"Nexora"} />} />
       </div>
     </div>
   );

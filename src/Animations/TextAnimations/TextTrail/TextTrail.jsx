@@ -64,7 +64,7 @@ const TextTrail = ({ text }) => {
   return (
     <div
       ref={containerRef}
-      className="relative w-full h-full overflow-hidden bg-transparent"
+      className="relative w-full h-full overflow-hidden rounded-xl bg-transparent border border-zinc-800"
     >
       <div className="cursor absolute inset-0">
         {Array.from({ length: count }).map((_, i) => (
