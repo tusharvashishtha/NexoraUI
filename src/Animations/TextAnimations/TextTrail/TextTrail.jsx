@@ -80,9 +80,6 @@ const TextTrail = ({ text }) => {
   );
 };
 
-// -------------------------
-// Code string for CodeBox
-// -------------------------
 export const TextRailString = `
 import React, { useEffect, useState, useRef } from "react";
 import { gsap } from "gsap";
@@ -160,16 +157,7 @@ const TextTrail = ({ text }) => {
   );
 };
 
-export default TextTrail;
-`;
-
-// -------------------------
-// Metadata
-// -------------------------
+export default TextTrail;`;
 export const TextTrailDependency = "npm install gsap";
 export const TextTrailName = "Text Trail";
-
-// -------------------------
-// Default export
-// -------------------------
 export default TextTrail;

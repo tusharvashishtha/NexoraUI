@@ -20,13 +20,11 @@ const Canvas = ({ component }) => {
         >
           {TextTrailName}
         </div>
-
         {/* Live component preview (no dark/light mode applied) */}
         <div className="h-[80vh] w-full rounded-xl flex items-center justify-center bg-[#0d1117]">
           {component}
         </div>
       </div>
-
       {/* Small Dependency Box */}
       <div className="w-full">
         <h3 className={`${darkMode ? "text-white" : "text-zinc-900"} mb-2`}>
@@ -38,7 +36,6 @@ const Canvas = ({ component }) => {
           maxHeight="fit-content"
         />
       </div>
-
       {/* Main CodeBox */}
       <div className="w-full">
         <h3 className={`${darkMode ? "text-white" : "text-zinc-900"} mb-2`}>
