@@ -20,7 +20,7 @@ const Canvas = ({ component }) => {
         >
           {TextTrailName}
         </div>
-        {/* Live component preview (no dark/light mode applied) */}
+  
         <div className="h-[80vh] w-full rounded-xl flex items-center justify-center bg-[#0d1117]">
           {component}
         </div>

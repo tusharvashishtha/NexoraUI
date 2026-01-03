@@ -44,7 +44,7 @@ const CodeBox = ({ codeString, language = "jsx", maxHeight = "600px" }) => {
                         <pre
                             style={{
                                 ...style,
-                                background: darkMode ? "#0d1117" : "#f9fafb", // force match with wrapper
+                                background: darkMode ? "#0d1117" : "#f9fafb", 
                                 padding: "1.5rem",
                                 fontSize: "0.9rem",
                                 lineHeight: "1.6",
